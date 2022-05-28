@@ -1,0 +1,5 @@
+#initial project start up
+django-admin startproject ProjectName
+
+#under main prject folder,create app folder
+django-admin startapp AppName
