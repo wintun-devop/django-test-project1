@@ -19,5 +19,5 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     #assign url path for itshop app
-    path("",include(itshop.urls)),
+    path("",include("itshop.urls")),
 ]

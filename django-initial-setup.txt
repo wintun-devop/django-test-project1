@@ -3,3 +3,16 @@ django-admin startproject ProjectName
 
 #under main prject folder,create app folder
 django-admin startapp AppName
+
+
+#Server Running
+python3 manage.py runserver
+
+
+#initial migration setup
+python3 manage.py migrate
+
+
+#migrastion after model creation
+python3 manage.py makemigrations
+python3 manage.py migrate
